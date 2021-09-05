@@ -14,16 +14,18 @@
         .navbar-brand img {
             max-width: 40px;
         }
+
+        .box {
+            height: 200px;
+        }
+
     </style>
   </head>
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="https://cdn.logo.com/hotlink-ok/logo-social-sq.png" alt="my amazing logo" class="img-fluid"/>
-                </a>
-                
+      
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,20 +36,12 @@
                         <ul class="navbar justify-content-center p-1 m-0">
             
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">page1</a>
                             </li>
             
                             <li class="nav-item">
-                                <a class="nav-link " href="#">about</a>
+                                <a class="nav-link " href="page2.html">page2</a>
                             </li>
-            
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">services</a>
-                            </li>
-            
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">team</a>
-            
                 
                 </div>
             </div>
@@ -56,9 +50,13 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-xl-2 bg-primary">Row 1 : Col 1</div>
-            <div class="col-12 col-md-6 col-xl-4 bg-secondary">Row 1 : Col 2</div>
-            <div class="col-12 col-md-6 bg-info">Row 1 : Col 3</div>
+            <div class="col-md-12 col-lg-12 bg-primary box">1</div>
+            <div class="col-md-6 col-lg-4 bg-secondary box">2</div>
+            <div class="col-md-6 col-lg-4 bg-success box">3</div>
+            <div class="col-md-12 col-lg-4 bg-danger box">4</div>
+            <div class="col-md-6  col-lg-4 bg-warning box">5</div>
+            <div class="col-md-6  col-lg-4 bg-dark box">6</div>
+            <div class="col-lg-4 bg-primary box">7</div>
         </div>
     </main>
 
@@ -70,4 +68,3 @@
 
   </body>
 </html>
-© 2021 GitHub, Inc.
