@@ -1,0 +1,38 @@
+
+.jumbotron {
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    background-color: #28182b;
+
+}
+
+ul {
+    list-style: none;
+  }
+  
+  
+  nav ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+.row {
+    background-color: #ac8baf;
+}
+
+.box {
+    height: 200px;
+}
+
+.card-img-top {
+    height: 100px;
+}
+
+.title {
+    color: #402353;
+}
