@@ -1,0 +1,72 @@
+
+.jumbotron {
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+
+
+ul {
+    list-style: none;
+
+  }
+  
+  
+  nav ul a {
+    color: rgb(146, 134, 136);
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+  }
+
+  H1 {
+    font-family: 'Gowun Batang', serif;
+  }
+
+  label {
+    font-family: 'Gowun Batang', serif;
+  }
+
+  P {
+    font-family: 'Gowun Batang', serif;
+  }
+
+  H2 {
+    font-family: 'Abel', sans-serif;
+  }
+
+.box {
+    height: 200px;
+}
+
+.card-body{
+background-color: #ddbea9;
+
+}
+
+.title {
+    color: #9e7ad8;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+
+#mainform {
+  font-family: ostrich_sanscondensed_light;
+  text-align:left;
+  width: 200px;
+ margin-left: auto;
+ margin-right: auto;
+  }
+  
+ #messageBox {
+ vertical-align: top;
+ }
+ 
+ label {display: inline-block;
+ width: 650px;
+ padding-bottom: 15px;
+ padding-top: 10px}
+ 
