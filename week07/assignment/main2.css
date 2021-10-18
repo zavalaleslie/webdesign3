@@ -1,0 +1,95 @@
+
+.jumbotron {
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+
+ul {
+    list-style: none;
+
+  }
+  
+  
+  nav ul a {
+    color: rgb(146, 134, 136);
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+  }
+
+
+  H1 {
+    font-family: 'Gowun Batang', serif;
+  }
+
+  P {
+    font-family: 'Gowun Batang', serif;
+  }
+
+  H4 {
+    font-family: 'Abel', sans-serif;
+  }
+
+.box {
+    height: 200px;
+}
+
+.card-body{
+background-color: #ddbea9;
+
+}
+
+.title {
+    color: #5f9c66;
+    font-family: 'Abel', sans-serif;
+}
+
+.product {
+  width: 40px;
+}
+
+
+.imagesun {
+  padding:2px;
+max-width: 100%;
+max-height: 100%;
+}
+
+@media(min-width: 768px){
+
+  .product {
+    width: 50px;
+  }
+
+.imagesun {
+  max-width: 100%;
+  max-height: auto;
+  }
+}
+
+
+@media(min-width: 1000px){
+
+  .product {
+    width: 60px;
+    
+  }
+}
+
+#cartDiv {
+
+  float: right;
+  margin:20px;
+
+}
+
+#counter {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#cart {
+  width: 40px;
+}
