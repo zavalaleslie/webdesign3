@@ -1,0 +1,49 @@
+
+div#outer {
+  width: 500px;
+  height: 500px;
+  border: 40px solid rgb(255, 135, 135);
+  margin: 0 auto;
+  margin-top: 15%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: circle 2s infinite alternate
+}
+
+@keyframes circle {
+  0% { border-color: #ffa99d;}
+  50% { border-color: #ff8999;}
+  100% { border-color: #ff76ff;}
+}
+
+
+
+div#inner {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: limegreen;
+  animation: inner 2s infinite alternate
+}
+
+@keyframes inner {
+  0% { background-color: #ff9735;}
+  50% { background-color: #ff5959;}
+  100% { background-color: #ff2c96;}
+}
+
+
+.heading {
+  padding-top: 50px;
+font-family: 'Gill Sans', sans-serif;
+text-align: center;
+animation: text 2s infinite forwards
+}
+
+@keyframes text {
+  0% { transform: scale(3);}
+  50% { transform: scale(5);}
+  100% { transform: scale(3);}
+}
