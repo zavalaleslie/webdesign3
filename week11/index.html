@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>HW</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding:20px;
+        }
+        canvas {
+            border: 1px solid black;
+            margin: 50px;
+        }
+
+        label {
+            display:block;
+
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <p id="counter">0</p>
+
+    <canvas id="Game" width="800" height="600">
+        This part needs a newer browser.
+    </canvas>
+
+    <label for="red">Red Value:</label>
+    <input type="range" id="redValue" min="0" max="255">
+
+    <label for="greenValue">Green Value:</label>
+    <input type="range" id="greenValue" min="0" max="255">
+
+    <label for="blueValue">Blue Value:</label>
+    <input type="range" id="blueValue" min="0" max="255">
+
+    <label for="sizeValue">Change Size:</label>
+    <input type="range" id="sizeValue" min="50" max="120">
+
+    </body>
+
+    <script src="canvas.js"></script>
+</body>
+</html>
