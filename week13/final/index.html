@@ -6,46 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Seamus Services</title>
     <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;700&family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body>
     
     <header>
+
+        <li>Live Seamus Services</li>
+
         <nav>
             <ul>
-                <li><a href="index.html">Live Seamus Services</a></li>
                 
                 <li><a href="index.html">Home</a></li>
 
-                <li><a href="">About</a></li>
+                <li><a href="about.html">About</a></li>
 
                 <li><a href="team.html">Team</a></li>
             </ul>
             
         </nav> 
+        
     </header>
+
+    <div id="banner">
+            
+        <h1 class="headerText" id="bannertext">Catch the Thrill!</h1>
+    
+    </div>
 
     <main class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 bg-primary box">1</div>
-            <div class="col-lg-12 col-md-12 col-sm-12 bg-secondary box">2</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-success box">3</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-danger box">4</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-warning box">5</div>
-            <div class="col-lg-12 col-md-12 col-sm-12 bg-dark box">6</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-success box">7</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-danger box">8</div>
-            <div class="col-lg-4 col-md-4 col-sm-12 bg-warning box">9</div>
-            <div class="col-lg-12 col-md-12 col-sm-12 bg-dark box">10</div>
+            <div class="col-lg-12 col-md-12 col-sm-12 paraone">
+                <h3 class="headerText">Best Fishing Guides in Los Angeles, CA</h3>
+                <h4 class="headerText">When you book a trip with us, you will experience the thrill of fishing!</h4>
+
+               <p> There’s nothing more exciting than heading out with the best fishing guides to find the perfect spots and start reeling in those fish. At Live Seamus Services, you’ll get just that. We offer a private fishing charter, whether you’re on your own or you want to 
+                head out on a fishing adventure with your friends in or around Los Angeles, CA. Fishing is our passion and we’re eager to share the journey with you. Our charter operators have been fishing in the Delta for many years and have 
+                identified all the best spots to boost your chances of heading home with an amazing catch. Choose our private fishing charter with qualified fishing guides so you can feel confident you’ll enjoy a great day out on the water taking part in one of your favorite activities.
+            </p>
+
+            </div>
+
+            </div>
+        </main>
+
+            <div class="linebreak"></div>
+
+            <main class="container">
+                <div class="row paraone">
+
+                   
+            <div class="col-lg-4 col-md-4 col-sm-12 box">
+
+                <picture>
+                    <img class="homeimg" src="circ1.png" alt="fishergirl">
+                  </picture>
+
+                  <p>If you’re looking for sport fishing services near me, look no further. At Live Seamus Services, we offer private boat fishing with our experienced sport fishing guides.</p>
+
+            </div>
+
+            <div id="hourContain" class="col-lg-4 col-md-4 col-sm-12 box">
+
+                        <h2 id="heads" class="headerText">Hours</h2>               
+                        <p id="hours">
+                        Monday	7AM-5:30PM </br>
+                        Tuesday	7AM-5:30PM </br>
+                        Wednesday	7AM-5:30PM </br>
+                        Thursday	7AM-5:30PM </br>
+                        Friday	7AM-6:00PM </br>
+                        Saturday	7AM-6:00PM </br>
+                        Sunday	7AM-5:30PM </br>
+                        </p>
+
+
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 box">
+
+                <picture>
+                    <img class="homeimg" src="circl2.png" alt="fisherboy">
+                  </picture>
+
+                  <p>You can count on our Delta bass fishing guides and Delta striper fishing guides to take you to the right spots to ensure you enjoy your fishing excursion. </p>
+
+            </div>
+            </div>
+        </main>
+
+        <div class="linebreak"></div>
+
+    
+        <main class="container">
+            <div class="row ">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 box">
+
+
+                <div id="footer">
+                    <h3 class="headerText">Book Your Experience</h3>
+                        <form id="mainform" action="processForm.php" method="post">
+                                <label for ="nameBox" id="nameLabel" class="userLabels">
+                                Name:</label> 
+                                    <input id="nameBox" type = "text" name="username" size="15" maxlength = "30"/>
+                                
+                                <label for ="emailBox" id="emailLabel" class="userLabels">
+                            Email:</label>
+                                <input id="emailBox"  type = "email" name = "username" size="15" maxlength = "30"/>
+                                
+                                
+                                <label for ="subjectBox" id="subjectLabel" class="userLabels">
+                            Schedule:</label> 
+                                <input id="subjectBox"  type = "date" name = "username" size="15" maxlength = "30" />
+                                
+                                <label for ="messageBox" id="messageLabel" class="userLabels">Message:</label> 
+                                <textarea id="messageBox" placeholder="Any accommodations, questions or concerns." rows="4" cols="50"></textarea>
+
+                                <input type="submit" name="submit" value="Let's Fish!">
+                            
+                        </form>
+                </div>
+
+            </div>
         </div>
     </main>
 
-    
+   
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
 </body>
 
 
